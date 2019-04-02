@@ -3,6 +3,8 @@ title: "Interview Preparation - Java"
 published: true
 ---
 
+[TOC]
+
 # Java
 
 ## Collection Related
@@ -17,21 +19,23 @@ Collection
 
 |
 
-|—List—ArrayList
+|—List
+
+​	|—ArrayList
 
 ​	|—Vector
 
 ​	|—LinkedList
 
-方法：
+常用方法：
 
-`add(Element e)` 
+`add(Object e)` 
 
 `addAll(Collection c)`
 
-`remove(Element e)`
+`remove(Object e)`
 
-`clear();`
+`clear()`
 
 `size()`
 
@@ -69,6 +73,24 @@ TreeSet的底层是红黑树
 
 常用的有HashMap, Hashtable, LinkedHashMap, TreeMap...
 
+常用方法：
+
+`put(Object k, Object v)`
+
+`remove(Object k)`
+
+`clear()`
+
+`get(Object k)`
+
+ `boolean containsKey(Object k)`
+
+ `boolean containsValue(Object v)`
+
+`size()`
+
+`isEmpty()`
+
 
 
 HashMap - 内部是数组 存的key-value对和next，哈希映射，线程不安全，key可以一个是null，value可以多个是null
@@ -84,6 +106,8 @@ TreeMap（红黑树） - 按key大小升序访问 - 内部有一个comparable比
 
 
 HashMap - 扩容因子为0.75，当到达容量0.75时，会×2，resize()，rehash（有的需要调整，有的不需要）
+
+
 
 ## String Related
 
