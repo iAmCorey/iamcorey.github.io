@@ -1,31 +1,26 @@
 ---
 title: "Interview Preparation - Java"
 published: true
+categories: [Interview]
+tags: [Java]
 ---
-
-[TOC]
 
 # Java
 
 ## Collection Related
 
-Collection
+```
+Collection/
+└── Set/
+│   ├── HashSet/
+│   ├── TreeSet
+└── List/
+    ├── ArrayList
+    ├── Vector
+    └── LinkedList
+```
 
-|—Set
 
-|      |—HashSet
-
-|      |—TreeSet
-
-|
-
-|—List
-
-​	|—ArrayList
-
-​	|—Vector
-
-​	|—LinkedList
 
 常用方法：
 
